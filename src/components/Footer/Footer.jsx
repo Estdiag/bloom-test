@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from '../Button/Button';
+import styles from './footer.module.css';
 import linkedin from '../../images/linkedin.png';
 import facebook from '../../images/facebook.png';
 import instagram from '../../images/instagram.png';
@@ -9,15 +10,41 @@ import bloom from '../../images/bloom.png';
 const Footer = () => {
   return (
     <nav>
-      <div>
-        <ul>
-          <li>Quienes somos</li>
-          <li>Recursos</li>
-          <li>Empleos</li>
-          <li>Faq</li>
-          <li>Contactanos</li>
-          <li>Boletines</li>
-        </ul>
+      <div className={styles.div_about_us}>
+        <div className={styles.div_line}>
+          <div className={styles.div_margin}>
+            <a className={styles.a} href="#pablo">
+              Quienes somos
+            </a>
+          </div>
+          <div className={styles.div_margin}>
+            <a className={styles.a} href="#pablo">
+              Recursos
+            </a>
+          </div>
+          <div className={styles.div_margin}>
+            <a className={styles.a} href="#pablo">
+              Empleos
+            </a>
+          </div>
+          <div className={styles.div_margin}>
+            <a className={styles.a_uppercase} href="#pablo">
+              Faq
+            </a>
+          </div>
+        </div>
+        <div>
+          <div className={styles.div_margin}>
+            <a className={styles.a} href="#pablo">
+              Contactanos
+            </a>
+          </div>
+          <div className={styles.div_margin}>
+            <a className={styles.a} href="#pablo">
+              Boletines
+            </a>
+          </div>
+        </div>
       </div>
       <div>
         <h3>¿Quieres estar actualizado?</h3>

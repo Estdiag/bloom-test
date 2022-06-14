@@ -1,0 +1,30 @@
+.a{
+  margin: 1rem;
+  font-size: 1rem;
+  font-family: 'Montserrat';
+  text-decoration: none;
+  color: #6c757d;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+.a_uppercase {
+  font-size: 1rem;
+  font-family: 'Montserrat';
+  text-decoration: none;
+  color: #6c757d;  
+  text-transform: uppercase;  
+}
+.a:hover {
+  color: var(--color-blue-bloom);
+}
+.div_about_us {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.div_margin{
+margin-bottom: 1rem;
+}
+
+.div_line{
+    border-right: 2px solid #ced4da;
+}
