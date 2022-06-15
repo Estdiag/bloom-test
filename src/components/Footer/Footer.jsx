@@ -13,51 +13,57 @@ const Footer = () => {
       <div className={styles.div_about_us}>
         <div className={styles.div_line}>
           <div className={styles.div_margin}>
-            <a className={styles.a} href="#pablo">
+            <a href="#pablo">
               Quienes somos
             </a>
           </div>
           <div className={styles.div_margin}>
-            <a className={styles.a} href="#pablo">
+            <a  href="#pablo">
               Recursos
             </a>
           </div>
           <div className={styles.div_margin}>
-            <a className={styles.a} href="#pablo">
+            <a  href="#pablo">
               Empleos
             </a>
           </div>
           <div className={styles.div_margin}>
-            <a className={styles.a_uppercase} href="#pablo">
-              Faq
+            <a href="#pablo">
+              FAQ
             </a>
           </div>
         </div>
         <div>
           <div className={styles.div_margin}>
-            <a className={styles.a} href="#pablo">
+            <a  href="#pablo">
               Contactanos
             </a>
           </div>
           <div className={styles.div_margin}>
-            <a className={styles.a} href="#pablo">
+            <a  href="#pablo">
               Boletines
             </a>
           </div>
         </div>
       </div>
-      <div>
-        <h3>¿Quieres estar actualizado?</h3>
-        <input type="text" />
+      <div className={styles.div_contact}>
+        <h3 >¿Quieres estar actualizado?</h3>
+        <input
+          type="email"
+          className={styles.input}
+          placeholder="example@hello.com"
+        />
         <Button text="Inscríbite" />
         <h5>
-          Al hacer click en el botón “inscríbete” aceptas nuestra Política de
-          Tratamiento de Datos
+          Al hacer click en el botón “inscríbete” aceptas nuestra{' '}
+          <a href="#pablo" className={styles.h5_a}>
+            Política de Tratamiento de Datos
+          </a>
         </h5>
       </div>
       <div>
         <h4>Siguenos en nuestras redes</h4>
-        <div>
+        <div className={styles.div_social_networks}>
           <ul>
             <a
               href="https://www.linkedin.com/company/bloom-crowdfunding"
@@ -89,8 +95,8 @@ const Footer = () => {
             </a>
           </ul>
         </div>
-        <div>
-          <h4>Vigilado por</h4>
+        <div className={styles.div_monitored}>
+          <h4>Vigilados por:</h4>
           <img src={bloom} alt="logo de bloom crowdfunding" />
         </div>
       </div>

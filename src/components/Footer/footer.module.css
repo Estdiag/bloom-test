@@ -1,4 +1,4 @@
-.a{
+a {
   margin: 1rem;
   font-size: 1rem;
   font-family: 'Montserrat';
@@ -6,25 +6,129 @@
   color: #6c757d;
   text-transform: capitalize;
   margin-bottom: 1rem;
+  font-weight: 600;
 }
-.a_uppercase {
-  font-size: 1rem;
-  font-family: 'Montserrat';
-  text-decoration: none;
-  color: #6c757d;  
-  text-transform: uppercase;  
-}
-.a:hover {
+a:hover {
   color: var(--color-blue-bloom);
 }
 .div_about_us {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
-.div_margin{
-margin-bottom: 1rem;
+.div_margin {
+  margin-bottom: 1rem;
 }
 
-.div_line{
-    border-right: 2px solid #ced4da;
+.div_line {
+  border-right: 2px solid #ced4da;
+}
+
+h3 {
+  font-family: 'Montserrat';
+  color: #6c757d;
+  font-weight: 600;
+}
+h5,
+h4,
+h6 {
+  font-family: 'Montserrat';
+  color: #6c757d;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+h5, .h5_a {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: 0.7rem;
+}
+h6 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+h4 {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.h5_a {
+  color: var(--color-blue-bloom);
+  text-decoration: none;
+}
+.input {
+  padding: 0 1.5rem;
+  border: 0.5px solid #ced4da;
+  border-radius: 0.5rem;
+  height: 2rem;
+  width: 70%;
+  font-family: 'Montserrat';
+  text-align: start;
+  color: #ced4da;
+  margin: 0;
+}
+.input::placeholder {
+  color: #ced4da;
+  font-size: 1rem;
+  font-family: 'Montserrat';
+  text-align: start;
+}
+
+.div_contact {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  justify-content: center;
+  align-items: start;
+  justify-items: center;
+  gap: 0;
+}
+
+button {
+  background-color: var(--color-blue-bloom);
+  color: #fff;
+  font-family: 'Montserrat';
+  display: block;
+  padding: 0 1.5rem;
+  text-align: center;
+  border: none;
+  border-radius: 1rem;
+  height: 2rem;
+  width: 9rem;
+  margin-top: 0;
+}
+
+button:hover {
+  background-color: #fff;
+  cursor: pointer;
+  color: var(--color-blue-bloom);
+}
+
+.div_social_networks {
+  display: grid;
+  grid-template-rows: repeat(1, 1fr);
+}
+
+.div_social_networks img {
+  width: 2rem;
+  height: 2rem;
+  padding-top: 0;
+}
+.div_social_networks ul {
+  padding: 0;
+  margin-bottom: 2rem;
+}
+.div_monitored {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem;
+}
+.div_monitored img {
+  width: 9rem;
+  height: 7.5rem;
+  padding-top: 0;
+}
+
+.div_monitored h4 {
+  margin-top: 3rem;
 }
