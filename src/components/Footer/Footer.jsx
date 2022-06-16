@@ -9,6 +9,8 @@ import bloom from '../../images/bloom.png';
 
 const Footer = () => {
   return (
+    <footer>
+
     <nav>
       <div className={styles.div_about_us}>
         <div className={styles.div_line}>
@@ -104,6 +106,7 @@ const Footer = () => {
         <h6>{`© ${new Date().getFullYear()} Bloom Crowdfunging S.A.C, todos los derechos reservados`}</h6>
       </div>
     </nav>
+    </footer>
   );
 };
 
