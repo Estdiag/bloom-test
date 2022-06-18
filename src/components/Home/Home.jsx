@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import styles from './home.module.css';
 import img from './../../images/hombre.jpg';
 import search from './../../images/search.png';
@@ -19,7 +20,9 @@ const Home = () => {
         invertir recibiendo una ganancia por nuestros recursos.
       </p>
       <div className={styles.div_button}>
+        <Link to="/register">
         <Button text="Inscríbite" />
+        </Link>
       </div>
       <div className={styles.div_img}>
         <div className={styles.div_project}>
