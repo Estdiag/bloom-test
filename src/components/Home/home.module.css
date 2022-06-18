@@ -1,0 +1,88 @@
+h2,
+p {
+  font-family: 'Montserrat';
+  text-align: center;
+  color: #606060;
+  margin: 1rem;
+  font-size: 1rem;
+}
+p {
+  font-size: 0.75rem;
+}
+
+.div_button {
+  display: grid;
+  justify-content: center;
+  align-items: start;
+  justify-items: center;
+}
+
+.div_img {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-items: center;
+  gap: 0;
+}
+
+.div_project {
+  background-color: var(--color-blue-bloom);
+  width: 12rem;
+  height: 12rem;
+  border-radius: 2rem;
+}
+
+.div_project_text {
+  text-align: center;
+  color: #fff;
+  font-family: 'Montserrat';
+}
+
+.div_project_img {
+  width: 15rem;
+  height: 15rem;
+  margin-right: 1rem;
+}
+
+img {
+  width: 3rem;
+  height: 3rem;
+  margin: 0;
+}
+
+.div_icons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: stretch;
+  gap: 0;
+  background-color: var(--color-blue-bloom);
+  width: 100%;
+  border-radius: 2rem;
+  margin: 1;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+.div_icons p {
+  color: #fff;
+  font-size: 0.5rem;
+}
+
+.button {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-items: stretch;
+  background-color: var(--color-blue-bloom);
+  color: #fff;
+  font-family: 'Montserrat';
+  padding: 0 6rem;
+  text-align: end;
+  border: none;
+  border-radius: 1rem;
+  height: 2rem;
+  margin: 1rem;
+}
+.button:hover {
+  background-color: #fff;
+  cursor: pointer;
+  color: var(--color-blue-bloom);
+}
