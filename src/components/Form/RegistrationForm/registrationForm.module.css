@@ -1,0 +1,31 @@
+.container {
+  display: grid;
+  grid-template-rows: repeat(1, 1fr);
+  background-color: var(--color-blue-bloom);
+  border-radius: 1rem;
+  margin: 1rem;
+  justify-content: cente
+}
+h1 {
+  color: #fff;
+  padding: 2rem;
+  font-size: 1.2rem;
+}
+
+.button {
+  background-color: #fff;
+  color: var(--color-blue-bloom);
+  width: 18rem;
+   }
+ .button:hover {
+    background-color: var(--color-blue-bloom);
+    cursor: pointer;
+    color: #fff;
+  }
+
+  .div_button {
+    display: grid;
+    justify-content: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+      }

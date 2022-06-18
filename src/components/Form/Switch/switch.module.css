@@ -14,7 +14,8 @@
   background: grey;
   border-radius: 100px;
   position: relative;
-  transition: background-color .2s;
+  transition: background-color 0.2s;
+  margin: 0;
 }
 
 .switch_label .switch_button {
@@ -28,6 +29,7 @@
   transition: 0.2s;
   background: #fff;
   box-shadow: 0 0 2px 0 rgba(10, 10, 10, 0.29);
+  margin: 0;
 }
 
 .switch_checkbox:checked + .switch_label .switch_button {
@@ -37,4 +39,18 @@
 
 .switch_label:active .switch_button {
   width: 60px;
+}
+
+.p {
+  margin: 0;
+  font-size: 0.7rem;
+  color: #fff;
+  font-family: 'Montserrat';
+}
+.p a{
+  font-size: 0.7rem;
+  color: #fff;
+  font-family: 'Montserrat';
+  text-decoration:underline;
+  margin-left: 0.3rem;
 }
